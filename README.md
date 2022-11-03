@@ -1,0 +1,2 @@
+# Telemetria-podejscie-2
+ 

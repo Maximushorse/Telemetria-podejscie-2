@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "cwd": "${workspaceRoot}",
+      "executable": "./bin/executable.elf",
+      "name": "Debug Microcontroller",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "stutil"
+    },
+    {
+      "cwd": "${workspaceRoot}",
+      "executable": "./bin/executable.elf",
+      "name": "Debug Microcontroller",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink"
+    },
+    {
+      "cwd": "${workspaceRoot}",
+      "executable": "./bin/executable.elf",
+      "name": "Debug Microcontroller",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "pyocd"
+    },
+    {
+      "cwd": "${workspaceRoot}",
+      "executable": "./bin/executable.elf",
+      "name": "Debug Microcontroller",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/maxim/OneDrive/Dokumenty/Telemetria podejscie 2/Arduino/telemetria_4",
+      "program": "c:/Users/maxim/OneDrive/Dokumenty/Telemetria podejscie 2/Arduino/telemetria_4/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
